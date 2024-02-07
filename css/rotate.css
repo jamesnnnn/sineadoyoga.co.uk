@@ -1,0 +1,40 @@
+div.random {
+width: 40px;
+height: 40px;
+position:fixed;
+z-index: 999;  
+}
+
+img.random {
+height: 40px;
+position:fixed;
+z-index: 999;  
+}
+
+@-webkit-keyframes rotating1 {
+    from{
+        -webkit-transform: rotate(0deg);
+        
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotating2 {
+    from{
+        -webkit-transform: rotate(0deg);
+        
+    }
+    to{
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+.rotating1 {
+    -webkit-animation: rotating1 10s linear infinite;
+}
+
+.rotating2 {
+    -webkit-animation: rotating2 10s linear infinite;
+}
